@@ -22,10 +22,11 @@ data. Alongside that, steady Java practice, committed as I go.
   behind. Java 17.
 - **[crop-recommendation](https://github.com/vivekkumarq/crop-recommendation)**: a
   scikit-learn classifier that suggests what to plant from soil NPK, temperature,
-  humidity, pH and rainfall. Lives in a notebook.
+  humidity, pH and rainfall. Trains and evaluates from the command line, with the
+  original notebook kept as the exploration record.
 - **[Java_begining_to_medium_level](https://github.com/vivekkumarq/Java_begining_to_medium_level)**:
-  where my Java practice lands. Daily exercises and LeetCode solutions, a few hundred
-  files at this point. Not organised, just accumulated.
+  where my Java practice lands. Daily exercises and around 240 LeetCode solutions,
+  indexed by topic.
 - **[Covid_Relief_fund_website](https://github.com/vivekkumarq/Covid_Relief_fund_website)**:
   a donation site I put together in 2021, with Razorpay wired in for payments. Plain
   HTML and CSS.
@@ -33,6 +34,7 @@ data. Alongside that, steady Java practice, committed as I go.
 ## Stack
 
 - Java 17, Spring Boot, Spring Cloud Gateway, REST, Maven
+- Docker, Docker Compose
 - PostgreSQL, MySQL
 - Python, pandas, scikit-learn, Jupyter
 - Zookeeper, Swagger/OpenAPI, Git
