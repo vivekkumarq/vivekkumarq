@@ -1,19 +1,46 @@
-<h1 align="center">Hi 👋, I'm Vivek Kumar</h1>
-<h3 align="center">Software Engineer</h3>
+# Vivek Kumar
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vivekkumarq&label=Profile%20views&color=0e75b6&style=flat" alt="vivekkumarq" /> </p>
+Software Engineer. Mostly backend Java and Spring Boot. I reach for Python when the
+problem turns out to be a data problem.
 
+<!-- Vivek: a line or two in your own words would go well here. Where you work, what
+     you like building, what you're learning. Replace this comment with it. -->
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/vivek-k-87036b104/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vivek-k-87036b104/" height="30" width="40" /></a>
-</p>
+## What I'm working on
 
-<!-- GIF -->
-<img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" />
+Backend service design, mostly. `movie-house` is where I've been trying out
+microservice patterns: service discovery, an API gateway, services that own their own
+data. Alongside that, steady Java practice, committed as I go.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+<!-- Vivek: swap the above for whatever you're actually on right now. -->
 
+## Projects
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vivekkumarq&" alt="vivekkumarq" /></p>
+- **[movie-house](https://github.com/vivekkumarq/movie-house)**: movie ticket booking
+  split into five Spring Boot services (user, movie, ticket, location, image).
+  Zookeeper for service discovery, Spring Cloud Gateway in front, Postgres or MySQL
+  behind. Java 17.
+- **[crop-recommendation](https://github.com/vivekkumarq/crop-recommendation)**: a
+  scikit-learn classifier that suggests what to plant from soil NPK, temperature,
+  humidity, pH and rainfall. Lives in a notebook.
+- **[Java_begining_to_medium_level](https://github.com/vivekkumarq/Java_begining_to_medium_level)**:
+  where my Java practice lands. Daily exercises and LeetCode solutions, a few hundred
+  files at this point. Not organised, just accumulated.
+- **[Covid_Relief_fund_website](https://github.com/vivekkumarq/Covid_Relief_fund_website)**:
+  a donation site I put together in 2021, with Razorpay wired in for payments. Plain
+  HTML and CSS.
+
+## Stack
+
+- Java 17, Spring Boot, Spring Cloud Gateway, REST, Maven
+- PostgreSQL, MySQL
+- Python, pandas, scikit-learn, Jupyter
+- Zookeeper, Swagger/OpenAPI, Git
+
+## Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/vivek-k-87036b104/)
+
+---
+
+![Vivek Kumar's GitHub contribution streak](https://streak-stats.demolab.com/?user=vivekkumarq)
