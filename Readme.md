@@ -55,6 +55,7 @@ Records declaring a compact constructor lost the type arguments of their generic
 **[quarkusio/quarkus](https://github.com/quarkusio/quarkus)** · [#56091](https://github.com/quarkusio/quarkus/issues/56091), diagnosed and closed
 
 Reported as a Quarkus JSON-B bug. Reproduced it against plain Yasson with no framework involved and isolated it to a JDK reflection regression present in 22 but not in 21 or 25, which let the maintainers close it.
+
 ---
 
 ### Tech Stack
