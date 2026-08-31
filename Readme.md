@@ -42,6 +42,21 @@ What I'm good at: designing services that stay clean as they grow — clear API 
 
 ---
 
+### Open Source
+
+**[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)** · 26.7k stars · merged in [#24810](https://github.com/OpenAPITools/openapi-generator/pull/24810), shipping in 7.26.0
+
+The Kotlin `jaxrs-spec` server generator emitted no documentation for its operations, while the equivalent Java generator had always produced Javadoc. Added a KDoc block driven by the OpenAPI `summary` and `description`, with `@param` and `@return`, matching the conventions already used elsewhere in the Kotlin generator. Fixes [#24794](https://github.com/OpenAPITools/openapi-generator/issues/24794).
+
+**[eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)** · the Jakarta JSON Binding reference implementation · [#751](https://github.com/eclipse-ee4j/yasson/pull/751), approved and awaiting merge
+
+Records declaring a compact constructor lost the type arguments of their generic components, so a `List<T>` deserialized into a list of maps. Traced it to `Parameter#getParameterizedType()` returning the raw type for mandated parameters on JDK 22, and resolved creator parameter types through `Executable#getGenericParameterTypes()` instead.
+
+**[quarkusio/quarkus](https://github.com/quarkusio/quarkus)** · [#56091](https://github.com/quarkusio/quarkus/issues/56091), diagnosed and closed
+
+Reported as a Quarkus JSON-B bug. Reproduced it against plain Yasson with no framework involved and isolated it to a JDK reflection regression present in 22 but not in 21 or 25, which let the maintainers close it.
+---
+
 ### Tech Stack
 
 **Languages**
