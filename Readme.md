@@ -44,9 +44,11 @@ What I'm good at: designing services that stay clean as they grow — clear API 
 
 ### Open Source
 
-**[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)** · 26.7k stars · merged in [#24810](https://github.com/OpenAPITools/openapi-generator/pull/24810), shipping in 7.26.0
+**[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)** · 26.7k stars · two merged PRs
 
-The Kotlin `jaxrs-spec` server generator emitted no documentation for its operations, while the equivalent Java generator had always produced Javadoc. Added a KDoc block driven by the OpenAPI `summary` and `description`, with `@param` and `@return`, matching the conventions already used elsewhere in the Kotlin generator. Fixes [#24794](https://github.com/OpenAPITools/openapi-generator/issues/24794).
+[#24810](https://github.com/OpenAPITools/openapi-generator/pull/24810), shipping in 7.26.0 — the Kotlin `jaxrs-spec` server generator emitted no documentation for its operations, while the equivalent Java generator had always produced Javadoc. Added a KDoc block driven by the OpenAPI `summary` and `description`, with `@param` and `@return`, matching the conventions already used elsewhere in the Kotlin generator. Fixes [#24794](https://github.com/OpenAPITools/openapi-generator/issues/24794).
+
+[#24819](https://github.com/OpenAPITools/openapi-generator/pull/24819) — every client example produced by the `rust-server` generator panicked on startup. The `port` argument was declared without a value parser, so clap stored it as a string while the code building the base URL read it as a `u16`. Fixes [#24515](https://github.com/OpenAPITools/openapi-generator/issues/24515).
 
 **[eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)** · the Jakarta JSON Binding reference implementation · [#751](https://github.com/eclipse-ee4j/yasson/pull/751), approved and awaiting merge
 
