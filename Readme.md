@@ -62,6 +62,14 @@ Reported as a Quarkus JSON-B bug. Reproduced it against plain Yasson with no fra
 
 ---
 
+### Projects
+
+**[India Air Quality Tracker](https://github.com/vivekkumarq/india-aqi-tracker)** · [live dashboard](https://vivekkumarq.github.io/india-aqi-tracker/)
+
+Records the Air Quality Index of 524 Indian cities twice a day, at 5 PM and 11 PM IST. A scheduled GitHub Actions job pulls 24 hours of pollutant data from the Open-Meteo API, computes AQI with the CPCB National AQI method, and commits each reading as a snapshot, so the repo keeps the full history. The dashboard, served by GitHub Pages, lets you browse any date and reading time, filter by state, explore every city on a map and follow its trend.
+
+---
+
 ### Tech Stack
 
 **Languages**
